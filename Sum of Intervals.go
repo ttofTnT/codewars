@@ -2,6 +2,8 @@ package codewars
 
 import "sort"
 
+//https://www.codewars.com/kata/52b7ed099cdc285c300001cd/solutions/go
+
 func SumOfIntervals(intervals [][2]int) int {
 	// Sort intervals by first data
 	sort.Slice(intervals, func(i, j int) bool {
